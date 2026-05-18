@@ -1,28 +1,73 @@
-# Data Science Portfolio  
-Welcome to my data science portfolio repository. This repo contains projects and resources related to data science studies and experiments.  
+# Machine Learning Portfolio
 
-## Projects  
+**Author:** Plinio Durango
+**Tools:** Python · scikit-learn · statsmodels · NLTK · pandas · matplotlib · seaborn · Jupyter
 
-### Housing Price Prediction  
-A project focused on predicting housing prices using machine learning techniques. This section will include notebooks exploring data preprocessing, feature engineering, model training, evaluation, and visualization.  
+A collection of end-to-end machine learning projects covering regression, classification, ensemble methods, and NLP — built as part of coursework and independent study.
 
-### N-gram Text Prediction  
-This project aims to build an N-gram model for text prediction. Notebooks in this folder will explore text preprocessing, constructing N-gram models, evaluating predictive performance, and experimenting with smoothing techniques.  
+---
 
-## Directory Structure  
+## Projects
 
-- `notebooks/`  - Jupyter notebooks for each project.  
-- `data/`  - Data sets and processed data.  
-- `reports/`  - Reports and analyses.  
+### 1. Housing Price Prediction — Ames Dataset
+> Regression · Ridge · Lasso · LassoCV · VIF · Cross-Validation
 
-## Data Sources  
-This repository will use various publicly available data sources, including housing datasets (e.g., Kaggle housing price datasets) and text corpora for N-gram modeling. Detailed references will be provided within individual project documentation.  
+Predicts residential sale prices using regularized regression on 80+ features. Full pipeline: EDA, feature engineering, multicollinearity detection (VIF), StandardScaler normalization, and comparative model evaluation (OLS vs. Ridge vs. Lasso).
 
-## Four-week Milestone Calendar  
+**Repo:** [Housing_Case_Study](https://github.com/plinio9302/Housing_Case_Study)
+**Key skills:** Ridge/Lasso regularization, hyperparameter tuning, statsmodels, feature importance
 
-| Week | Milestone |  
-|---|---|  
-| Week 1 | Set up repository structure, collect initial datasets, and outline project goals |  
-| Week 2 | Develop initial notebooks for data exploration and preprocessing |  
-| Week 3 | Implement and evaluate baseline models for both projects |  
-| Week 4 | Refine models, generate reports, and prepare presentations | 
+---
+
+### 2. Spam Detection — Ensemble Methods
+> Classification · Decision Tree · Bagging · Random Forest · TF-IDF · GridSearchCV
+
+Classifies real .eml email files as spam or ham using tree-based models. Compares a single Decision Tree baseline against Bagging and Random Forest ensembles. Uses TF-IDF vectorization (5,000 features) and GridSearchCV for tuning.
+
+**Repo:** [Decision_trees_classifier](https://github.com/plinio9302/Decision_trees_classifier)
+**Key skills:** Ensemble methods, NLP feature extraction, cross-validation, MSPE comparison
+
+---
+
+### 3. N-Gram Text Prediction
+> NLP · Language Models · N-grams · Smoothing
+
+Builds an N-gram language model for next-word prediction. Covers text preprocessing, N-gram construction, smoothing techniques, and predictive performance evaluation.
+
+**Location:** `notebooks/` in this repository
+**Key skills:** Tokenization, N-gram modeling, language model evaluation
+
+---
+
+## Repository Structure
+
+```
+ml-portfolio/
+├── notebooks/          # Jupyter notebooks per project
+├── data/               # Raw and processed datasets
+├── reports/            # Reports and analyses
+└── README.md
+```
+
+## Skills Demonstrated
+
+| Area | Technologies |
+|------|-------------|
+| Supervised Learning | Linear Regression, Ridge, Lasso, Decision Trees, Random Forest, Bagging |
+| Model Selection | GridSearchCV, cross-validation, train/test split |
+| Feature Engineering | TF-IDF, VIF, StandardScaler, encoding |
+| NLP | N-gram models, text preprocessing, smoothing |
+| Libraries | scikit-learn, statsmodels, pandas, numpy, matplotlib, seaborn |
+
+## How to Run
+
+```bash
+git clone https://github.com/plinio9302/ml-portfolio.git
+cd ml-portfolio
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels nltk
+jupyter notebook
+```
+
+---
+
+*For SQL/data analysis projects, see [data-analysis-portfolio](https://github.com/plinio9302/data-analysis-portfolio)*
