@@ -24,7 +24,7 @@ Predicts residential sale prices using regularized regression on 80+ features. F
 
 Classifies real .eml email files as spam or ham using tree-based models. Compares a single Decision Tree baseline against Bagging and Random Forest ensembles. Uses TF-IDF vectorization (5,000 features) and GridSearchCV for tuning.
 
-**Repo:** [Decision_trees_classifier](https://github.com/plinio9302/Decision_trees_classifier)
+**Repo:** [Decision_trees_classifier](https://github.com/plinio9302/Decision_trees_classifier) · **Notebook:** [spam_classifier.ipynb](https://github.com/plinio9302/ml-portfolio/blob/main/notebooks/spam_classifier.ipynb)
 **Key skills:** Ensemble methods, NLP feature extraction, cross-validation, MSPE comparison
 
 ---
