@@ -38,6 +38,16 @@ Builds an N-gram language model for next-word prediction. Covers text preprocess
 **Key skills:** Tokenization, N-gram modeling, language model evaluation
 
 ---
+### 4. Mashable News Popularity — Tree-Based Methods
+> Classification · Decision Tree · Bagging · Random Forest · Ensemble Methods · GridSearchCV
+
+Predicts whether a Mashable news article will become popular (above-median share count) using 58 article features. Progressively improves from a single Decision Tree to Bagging to Random Forest, demonstrating the bias-variance tradeoff and the power of ensemble methods. Includes a companion spam email classifier built on the same ensemble pipeline with TF-IDF features.
+
+**Repo:** [mashable_data](https://github.com/plinio9302/mashable_data) · **Notebooks:** [classification_tree.ipynb](https://github.com/plinio9302/mashable_data/blob/main/classification_tree.ipynb) · [Spam Classifier.ipynb](https://github.com/plinio9302/mashable_data/blob/main/Spam%20Classifier.ipynb)
+**Key skills:** Decision Trees, Bagging, Random Forest, TF-IDF vectorization, GridSearchCV, cross-validation, feature importance, MSPE comparison
+
+---
+
 
 ## Repository Structure
 
@@ -48,6 +58,8 @@ ml-portfolio/
 ├── reports/            # Reports and analyses
 └── README.md
 ```
+
+> **External repos:** [Housing_Case_Study](https://github.com/plinio9302/Housing_Case_Study) · [Decision_trees_classifier](https://github.com/plinio9302/Decision_trees_classifier) · [mashable_data](https://github.com/plinio9302/mashable_data)
 
 ## Skills Demonstrated
 
