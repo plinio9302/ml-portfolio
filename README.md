@@ -89,6 +89,26 @@ Predicts whether breast cancer will recur from 9 clinical features of 277 patien
 
 ---
 
+### 9. ASA DataFest 2026: Patient Cluster Profiling
+> Clustering · K-Means · Healthcare Analytics · Social Determinants of Health · pandas
+
+Team analysis of Stormont Vail Health's four year patient encounter dataset (about 7.7M encounters across rural Northeast Kansas) for ASA (American Statistical Association) DataFest 2026. Profiles patient clusters from K-Means labels fit on high utilization patients (20+ visits), comparing cluster size, length of stay, top diagnosis groups, and top departments. Cross referencing the clusters with the social determinants questionnaire surfaced transportation access as a driver of return visits, which won the Best Insight award at the University of San Francisco site. Raw data is not included under the data use agreement, and the notebook uses pre computed cluster labels.
+
+**Repo:** [Data_Fest_2026](https://github.com/plinio9302/Data_Fest_2026)
+**Key skills:** K-Means cluster interpretation, healthcare data, large scale pandas joins, diagnosis co-occurrence analysis, communicating insights
+
+---
+
+### 10. Eigenfaces: PCA for Facial Recognition
+> Dimensionality Reduction · PCA (Principal Component Analysis) · Computer Vision · Image Reconstruction
+
+Case study applying PCA to grayscale face images for facial recognition and reconstruction (eigenfaces). Images are scraped at runtime from a public faculty directory page, so no image data is stored in the repo. Includes the Python analysis script and a written report.
+
+**Repo:** [eigenfaces-pca](https://github.com/plinio9302/eigenfaces-pca)
+**Key skills:** PCA, dimensionality reduction, image reconstruction, web scraping
+
+---
+
 ## Repository Structure
 
 ```
@@ -99,7 +119,7 @@ ml-portfolio/
 └── README.md
 ```
 
-> **External repos:** [Housing_Case_Study](https://github.com/plinio9302/Housing_Case_Study) · [Decision_trees_classifier](https://github.com/plinio9302/Decision_trees_classifier) · [mashable_data](https://github.com/plinio9302/mashable_data) · [neural_networks_from_scracth](https://github.com/plinio9302/neural_networks_from_scracth) · [Service_cost_forecasting_portafolio](https://github.com/plinio9302/Service_cost_forecasting_portafolio) · [worldcup-monte-carlo](https://github.com/plinio9302/worldcup-monte-carlo) · [breast-cancer-recurrence-prediction](https://github.com/plinio9302/breast-cancer-recurrence-prediction)
+> **External repos:** [Housing_Case_Study](https://github.com/plinio9302/Housing_Case_Study) · [Decision_trees_classifier](https://github.com/plinio9302/Decision_trees_classifier) · [mashable_data](https://github.com/plinio9302/mashable_data) · [neural_networks_from_scracth](https://github.com/plinio9302/neural_networks_from_scracth) · [Service_cost_forecasting_portafolio](https://github.com/plinio9302/Service_cost_forecasting_portafolio) · [worldcup-monte-carlo](https://github.com/plinio9302/worldcup-monte-carlo) · [breast-cancer-recurrence-prediction](https://github.com/plinio9302/breast-cancer-recurrence-prediction) · [Data_Fest_2026](https://github.com/plinio9302/Data_Fest_2026) · [eigenfaces-pca](https://github.com/plinio9302/eigenfaces-pca)
 
 ## Skills Demonstrated
 
@@ -112,6 +132,7 @@ ml-portfolio/
 | Deep Learning | Autograd, CNN, Transformer, GCN, PyTorch |
 | Survival and Forecasting | Kaplan Meier, Weibull, Cox PH, renewal simulation, hierarchical Bayesian models |
 | Simulation | Monte Carlo, Elo ratings, Poisson models |
+| Unsupervised Learning | PCA, eigenfaces, K-Means cluster profiling |
 | Imbalanced Classification | Class weights, oversampling, recall, ROC-AUC |
 | Libraries | scikit-learn, statsmodels, pandas, numpy, matplotlib, seaborn |
 
